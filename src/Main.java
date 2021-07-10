@@ -7,7 +7,6 @@ public class Main {
         System.out.println("Введите 2 целых числа в диапазоне от 1-10 или I-X, и знак арифметического действия между ними: ");
         BufferedReader calc = new BufferedReader(new InputStreamReader(System.in));
         String cl = calc.readLine();   //переменная, в которой хранится содержимое строки
-
         try {
             String[] numbers = cl.split(" ");  //принимаем за разделитель пробел
             String a = numbers[0];  //первая цифра
